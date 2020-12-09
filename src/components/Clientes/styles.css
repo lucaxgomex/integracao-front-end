@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+#clientes-container{
+    background:  #F8F8F8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#clientes-container #titulo{
+    width: 300px;
+    height: 60px;
+    background: #13BBAF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #FFF;
+    font: 700 25px Poppins;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+    position: relative;
+    top: -35px;
+}
+
+#clientes-container #cliente h3{
+    color: #60696B;
+    font: 700 25px Poppins;
+
+}
+
+#clientes-container #cliente img{
+    margin: 5px;
+}
+
+#clientes-container #cliente {
+    flex-direction: column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clientes-list{
+    flex-direction: row ;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#clientes-list-container{
+    width: 90%;
+}
+
