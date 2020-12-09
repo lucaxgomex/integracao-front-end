@@ -1,9 +1,16 @@
-import React from 'react'; 
+import React from 'react';
 
+import Header from '../../components/Header'
+import './styles.css'
 function HomePage() {
     return(
-        <div>
-            <h1>HomePage</h1>
+        <div id="home-container">
+            <Header />
+            
+            <div>
+                <h1>HomePage</h1>
+            </div>
+            
         </div>
     );
 }
