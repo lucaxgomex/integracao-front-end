@@ -1,13 +1,16 @@
 import React from 'react'; 
 import Header from '../../components/Header'
 import Clientes from '../../components/Clientes'
+import Produtos from '../../components/Produtos'
+import Welcome from '../../components/Welcome'
 import './styles.css'
 
 function HomePage() {
     return(
-        <div>
+        <div id="home-container">
             <Header />
-            <h1>HomePage</h1>
+            <Welcome /> 
+            <Produtos />
             <Clientes />
 
         </div>
