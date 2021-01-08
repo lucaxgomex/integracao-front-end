@@ -13,12 +13,16 @@ class Footer extends Component {
 				    <h2>Siga-nos</h2>
 				    <div className="contact">
 				    	<div id="instagram">
-		                    <img src={Instagram} className="vector-imf" alt="Instagram log"></img>
-		                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">@pet&gatô</a>
+		                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+		                    	<img src={Instagram} className="vector-imf" alt="Instagram log"></img>
+		                    	@pet&gatô
+		                    </a>
 		                </div>
 		                <div id="twitter">
-		                    <img src={Twitter} className="twitter-img" alt="Twitter log"></img>
-		                    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">@pet&gatô</a>
+		                    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+		                    	<img src={Twitter} className="twitter-img" alt="Twitter log"></img>
+		                    	@pet&gatô
+		                    </a>
 		                </div>
 	                </div>
                 </div>
