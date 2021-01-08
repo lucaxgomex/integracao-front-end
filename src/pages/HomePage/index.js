@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Clientes from '../../components/Clientes'
 import Produtos from '../../components/Produtos'
 import Welcome from '../../components/Welcome'
+import Footer from '../../components/Footer'
 import './styles.css'
 
 function HomePage() {
@@ -12,7 +13,7 @@ function HomePage() {
             <Welcome /> 
             <Produtos />
             <Clientes />
-
+            <Footer />
         </div>
     );
 }
