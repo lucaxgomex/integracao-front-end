@@ -18,25 +18,24 @@ class Clientes extends Component {
                     <div id="clientes-list-container">
                         <div id="clientes-list">
                             '<div id="cliente">
-                                <img src={Bruce} />
+                                <img src={Bruce} alt="Bruce" />
                                 <h3> Bruce</h3>
                             </div>
 
                             <div id="cliente">
-                                <img src={Tobias} />
+                                <img src={Tobias} alt="Tobias" />
                                 <h3> Tobias</h3>
                             </div>
 
                             <div id="cliente">
-                                <img src={Perna_Longa} />
+                                <img src={Perna_Longa} alt="Perna Longa" />
                                 <h3> Perna-Longa</h3>
                             </div>
 
                             <div id="cliente">
-                                <img src={Lili} />
+                                <img src={Lili} alt="Lili" />
                                 <h3> Lili</h3>
                             </div>
-'
                         </div>
                     </div>
                 </div>

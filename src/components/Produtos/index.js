@@ -19,26 +19,26 @@ class Produtos extends Component {
 
                     <div id="produtos-list-container">
                             <div id="pass-left">
-                                <img src={Left} />   
+                                <img src={Left} alt=""/>   
                             </div>
                         
                             <div id="produto">
-                                <img src={Coleira} />
+                                <img src={Coleira} alt="Coleira"/>
                                 <h3> Coleira</h3>
                             </div>
 
                             <div id="produto">
-                                <img src={Comedouro} />
+                                <img src={Comedouro} alt="Comedouro"/>
                                 <h3> Comedouro</h3>
                             </div>
 
                             <div id="produto">
-                                <img src={Caixa_trasporte} />
+                                <img src={Caixa_trasporte} alt="Caixa para Transporte"/>
                                 <h3>Caixa de <br/> Transporte</h3>
                             </div>
 
                             <div id="pass-right">
-                                <img src={Right} />
+                                <img src={Right} alt=""/>
                             </div>
 
                     </div>

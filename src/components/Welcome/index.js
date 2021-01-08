@@ -18,28 +18,27 @@ class Welcome extends Component {
 
                     <div id="welcome-list-container">
                             <div id="imagem">
-                                <img src={Cachorro} />   
+                                <img src={Cachorro} alt="Cachorro"/>   
                             </div>
                         
                             <div id="imagem">
-                                <img  src={Gato} />
+                                <img  src={Gato} alt="Gato"/>
                                 
                             </div>
 
                             <div id="imagem">
-                                <img src={Hamster} />
+                                <img src={Hamster} alt="Hamster"/>
                                
                             </div>
 
                             <div id="imagem">
-                                <img src={Coelho} />
+                                <img src={Coelho} alt="Coelho"/>
                                 
                             </div>
 
                             <div id="imagem">
-                                <img src={Pata} />
+                                <img src={Pata} alt="Pata"/>
                             </div>
-
                     </div>
                 </div>
         );

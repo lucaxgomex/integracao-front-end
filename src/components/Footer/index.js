@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+/*import {Link} from 'react-router-dom';*/
 
 import "./style.css";
 import Twitter from '../../assets/twitter.png';
@@ -14,11 +14,11 @@ class Footer extends Component {
 				    <div className="contact">
 				    	<div id="instagram">
 		                    <img src={Instagram} className="vector-imf" alt="Instagram log"></img>
-		                    <a href="https://www.instagram.com/" target="_blank">@pet&gatô</a>
+		                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">@pet&gatô</a>
 		                </div>
 		                <div id="twitter">
 		                    <img src={Twitter} className="twitter-img" alt="Twitter log"></img>
-		                    <a href="https://www.twitter.com/" target="_blank">@pet&gatô</a>
+		                    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">@pet&gatô</a>
 		                </div>
 	                </div>
                 </div>

@@ -9,7 +9,7 @@ class Header extends Component {
         return (   
                 <div id="header">
                     <div id="logo-container">
-                        <img src={Logo}  className="logo"></img>
+                        <img src={Logo}  className="logo" alt="Logo"></img>
                         <h2>Pet {"&"} Gatô</h2>
                     </div>
 
